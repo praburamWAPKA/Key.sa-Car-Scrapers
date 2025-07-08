@@ -23,6 +23,10 @@ Scrapes the car fleet listings from Key.sa and saves the data to a CSV file (`ke
 * **Pagination:** Uses `offset` to iterate through all pages
 * **Output Fields:** ID, Name, Image, Category, Transmission, Doors, Bags, Prices, Booking URL, etc.
 
+* ![image](https://github.com/user-attachments/assets/f5f9203d-a035-4b57-9c42-44e4ae774455)
+
+![image](https://github.com/user-attachments/assets/f38ffe9b-8577-4ec3-a80d-b43b59dbd136)
+
 ### 2. `sale_scraper.py`
 
 Scrapes cars available for sale and saves the data to a CSV file (`cars_for_sale.csv`).
@@ -30,6 +34,8 @@ Scrapes cars available for sale and saves the data to a CSV file (`cars_for_sale
 * **Target URL:** `https://www.key.sa/en/getMoreSellingCars`
 * **Pagination:** Uses offset with a limit of 6 per request
 * **Output Fields:** Brand, Model, Year, Kilometers, Price, Discount, Sold status, Image, ID
+![image](https://github.com/user-attachments/assets/53b03159-bff6-4d99-833f-d320d95512c6)
+![image](https://github.com/user-attachments/assets/9bf64d56-05e2-4e7c-8ac8-482bdb5706d7)
 
 ---
 
